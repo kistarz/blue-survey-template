@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Riki.versee's Payment Form</title>
+            <link rel="stylesheet" href="surveytemplatestyle.css">
+            <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Chakra+Petch&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div id="surveyHeader">
+                <img id="surveyImgHeader" alt="header" src="https://i.pinimg.com/736x/11/8d/13/118d13e1724dc9fc3f6a3849790a95d8.jpg">
+                <form id="surveyForm">
+                <h1 id="surveyTitle">Survey Title</h1>
+                <p id="surveyDesc">Survey Description<br>
+                <br>˚₊‧꒰ა ☆ ໒꒱ ‧₊˚<br>
+                <a id="link1" target="_blank" href="">Link 1</a><br>
+                <a id="link2" target="_blank" href="">Link 2</a></p>
+            </div>
+            <div id="questions">
+                <div id="question1">
+                    <h3 class="question">Question 1</h3>
+                    <input type="text" name="data[answer1]" class="textInput" placeholder="Response here" required>
+                </div>
+                <div id="question2">
+                    <h3 class="question">Question 2</h3>
+                    <input type="text" name="data[answer2]" class="textInput" placeholder="Response here" required>
+                </div>
+                <div id="question3">
+                    <h3 class="question">Question 3</h3>
+                    <div class="choice">
+                        <input type="radio"  id="3option1" name="data[answer3]" value="3Option1">
+                        <label class="choicelabel" for="3option1">Option 1</label><br>
+                    </div>
+                    <div class="choice">
+                        <input type="radio"  id="3option2" name="data[answer3]" value="3Option2">
+                        <label class="choicelabel" for="3option2">Option 2</label><br>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="3option3" name="data[answer3]" value="3Option3">
+                        <label class="choicelabel" for="3option3">Option 3</label><br>
+                    </div>
+                </div>
+                <div id="question4">
+                    <h3 class="question">Question 4</h3>
+                    <div class="choice">
+                        <input type="radio"  id="4option1" name="data[answer4]" value="4Option1">
+                        <label class="choicelabel" for="4option1">Option 1</label><br>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="4option2" name="data[answer4]" value="4Option2">
+                        <label class="choicelabel" for="4option2">Option 2</label><br>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="4option3" name="data[answer4]" value="4Option3">
+                        <label class="choicelabel" for="4option3">Option 3</label>
+                    </div>
+                </div>
+                <div id="question5">
+                    <h3 class="question">Question 5</h3>
+                    <div class="checkboxquestions">
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="5option1" name="data[answer5][]" value="5Option1">
+                        <span class="checkmark"></span>
+                        Option 1
+                    </label>
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="5option2" name="data[answer5][]" value="5Option2">
+                        <span class="checkmark"></span>
+                        Option 2
+                    </label>
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="5option3" name="data[answer5][]" value="5Option3">
+                        <span class="checkmark"></span>
+                        Option 3
+                    </label>
+                    </div>
+                </div>
+                <div id="question6">
+                    <h3 class="question">Question 6</h3>
+                    <div class="checkboxquestions">
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="6option1" name="data[answer6][]" value="6Option1">
+                        <span class="checkmark"></span>
+                        Option 1
+                    </label>
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="6option2" name="data[answer6][]" value="6Option2">
+                        <span class="checkmark"></span>
+                        Option 2
+                        </label>
+                    <label class="checkboxinput">
+                        <input type="checkbox" id="6option3" name="data[answer6][]" value="6Option3">
+                        <span class="checkmark"></span>
+                        Option 3
+                    </label>
+                    </div>
+                </div>
+            </div>
+            <div id="submitbutton">
+                <button type="submit">Submit!</button>
+            </div>
+            </form>
+            <script>
+                const form = document.getElementById('surveyForm');
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault(); 
+
+                    fetch('INSERT YOUR API LINK', {
+                    method: 'POST',
+                    body: new FormData(form),
+                })
+                .then(response => {
+                    if (response.ok) {
+                    alert('Thank you! Your response has been recorded.');
+                    form.reset();
+                    } else {
+                    alert('Something went wrong.');
+                    }
+                });
+                });
+            </script>
+        </body>
+        <footer>
+            <p>template by @kistarz</p>
+        </footer>
+    </html>

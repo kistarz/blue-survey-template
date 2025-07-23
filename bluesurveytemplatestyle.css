@@ -1,0 +1,338 @@
+html {
+    background-image: url(https://i.pinimg.com/736x/9d/cb/66/9dcb66fe676359a9a6e8e06e0360e105.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+body {
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#surveyHeader {
+    height: 335px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+#surveyHeader h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(0, 0, 0);
+}
+#surveyHeader p {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#surveyHeader img {
+    margin-top: 30px;
+    object-fit: cover;
+    width: 85%;
+    height: 40%;
+    object-position: center;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px rgba(44, 44, 44, 0.5);
+}
+
+#surveyHeader a {
+    line-height: 1.25;
+}
+
+#link2 {
+    margin-bottom: 30px;
+}
+
+#surveyTitle {
+    margin-bottom: 0;
+    line-height: 0.7;
+    margin-top: 15px;
+}
+
+#surveyDesc {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+#surveyHeader p {
+    color: black; 
+}
+
+#question1 {
+    height: 105px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#question2 {
+    height: 105px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#question3 {
+    height: 105px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: block;
+    margin: 40px auto;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#question4 {
+    height: 105px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: block;
+    margin: 40px auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#question5 {
+    height: 165px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#question6 {
+    height: 165px;
+    width: 550px;
+    background-color: rgba(194, 235, 255, 0.35);
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.textInput {
+    border-radius: 5px;
+    border-color: #d3d3d3;
+    box-shadow: 0 0 8px rgba(125, 216, 255, 0.8);
+    background: rgba(222, 244, 255, 0.4);
+    opacity: 70%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#question3 h3 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#question4 h3 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#question5 h3 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#question6 h3 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choice {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+    gap: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.choice input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+.choice label {
+  position: relative;
+  padding-left: 30px; 
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+}
+
+.choice label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(174, 174, 174, 0.4);
+  box-shadow: 0 0 4px rgba(44, 44, 44, 0.5);   
+  border-radius: 50%;
+  background: white;
+  box-sizing: border-box;
+}
+
+.choice input[type="radio"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: rgba(125, 216, 255, 0.6);
+  border-radius: 50%;
+}
+
+.checkboxinput input[type="checkbox"] {
+    display: none;
+}
+
+.checkboxinput {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.checkmark {
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(174, 174, 174, 0.4);
+    box-shadow: 0 0 4px rgba(44, 44, 44, 0.5);
+    border-radius: 4px;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkboxinput input[type="checkbox"]:checked+.checkmark::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkboxinput input[type="checkbox"]:checked+.checkmark {
+    background-color: rgba(125, 216, 255, 0.8);
+    border-color: rgba(174, 174, 174, 0.4);
+    box-shadow: 0 0 7px rgba(44, 44, 44, 0.5);
+}
+
+.checkboxquestions {
+    margin-top: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+button {
+    color: black;
+    border: 2px solid rgba(174, 174, 174, 0.5);
+    background-color: rgba(194, 235, 255, 0.35);
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+    border-radius: 5px;
+    height: 40px;
+    width: 95px;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer p {
+    color:rgb(175, 175, 175);
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
